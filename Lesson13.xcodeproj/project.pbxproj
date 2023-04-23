@@ -14,6 +14,7 @@
 		F652591B29F450CF009DA527 /* Lesson13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652591A29F450CF009DA527 /* Lesson13Tests.swift */; };
 		F652592529F450CF009DA527 /* Lesson13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652592429F450CF009DA527 /* Lesson13UITests.swift */; };
 		F652592729F450CF009DA527 /* Lesson13UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652592629F450CF009DA527 /* Lesson13UITestsLaunchTests.swift */; };
+		F652593429F4CB36009DA527 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652593329F4CB36009DA527 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F652592029F450CF009DA527 /* Lesson13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F652592429F450CF009DA527 /* Lesson13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13UITests.swift; sourceTree = "<group>"; };
 		F652592629F450CF009DA527 /* Lesson13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F652593329F4CB36009DA527 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F652590929F450CC009DA527 /* Lesson13App.swift */,
 				F652590B29F450CC009DA527 /* ContentView.swift */,
+				F652593329F4CB36009DA527 /* SecondView.swift */,
 				F652590D29F450CE009DA527 /* Assets.xcassets */,
 				F652590F29F450CE009DA527 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F652593429F4CB36009DA527 /* SecondView.swift in Sources */,
 				F652590C29F450CC009DA527 /* ContentView.swift in Sources */,
 				F652590A29F450CC009DA527 /* Lesson13App.swift in Sources */,
 			);
