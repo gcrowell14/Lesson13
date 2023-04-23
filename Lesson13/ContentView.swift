@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+private var colorsArray: [Color] = [ .yellow, .green, .orange, .indigo, .teal]
 struct ContentView: View {
     var body: some View {
         
@@ -22,7 +22,7 @@ struct ContentView: View {
                     NavigationLink(destination: Text("Contact this page for information")) {
                         Text("📇Contact Page")
                             .padding(20)
-                        
+                    }
                         NavigationLink(destination: Text("Help me navigate the app")) {
                             Text("🚨Help")
                             
@@ -36,16 +36,16 @@ struct ContentView: View {
                         NavigationLink(destination: SecondView()) {
                             Text("About")
                         }
+                        
                     }
                 }
             }
         }
-        
+    }
         struct ContentView_Previews: PreviewProvider {
             static var previews: some View {
                 ContentView()
             }
         }
-    }
-}
+    
 
